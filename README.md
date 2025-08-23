@@ -1,18 +1,15 @@
 # 🌐 Web Beautiful React Tailwind Portfolio
 
 A modern, beautiful, and responsive personal portfolio website built with **React + Tailwind CSS**.  
-Trang web portfolio cá nhân hiện đại, đẹp mắt và responsive, được xây dựng bằng **React + Tailwind CSS**.
-
 ---
 
-## 🚀 Features | Tính năng
-
-- ✅ Responsive design (desktop, tablet, mobile)  
-- 🎨 UI đẹp với Tailwind CSS  
-- ⚡ Nhanh và tối ưu nhờ Vite + React  
-- 🌙 Hỗ trợ Dark/Light mode *(tùy chọn)*  
-- 📂 Showcase dự án và kỹ năng  
-- 📞 Trang liên hệ (Contact)  
+## 🚀 Features
+- ✅ Responsive design (desktop, tablet, mobile) 
+- 🎨 Beautiful UI with Tailwind CSS 
+- ⚡ Fast and optimized thanks to Vite + React 
+- 🌙 Dark/Light mode support *(optional)* 
+- 📂 Showcase projects and skills 
+- 📞 Contact page
 
 ---
 
@@ -26,42 +23,41 @@ Trang web portfolio cá nhân hiện đại, đẹp mắt và responsive, đư�
 
 ---
 
-## 📂 Project Structure | Cấu trúc dự án
+## 📂 Project Structure 
 
-### Hiện tại (Current)
+### Current
 ```
 web-beautiful-react-tailwind-portfolio/
-├── public/              # Static assets
-├── src/                 # Source code chính
-├── .gitignore           # Ignore node_modules, build,...
-├── README.md            # Tài liệu dự án
-├── eslint.config.js     # Cấu hình ESLint
-├── index.html           # Entry HTML
-├── package.json         # Dependencies & scripts
-├── package-lock.json    # Lock file
-└── vite.config.js       # Config Vite
+├── public/ # Static assets
+├── src/ # Source code main
+├── .gitignore # Ignore node_modules, build,...
+├── README.md # Project documentation
+├── eslint.config.js # ESLint configuration
+├── index.html # Entry HTML
+├── package.json # Dependencies & scripts
+├── package-lock.json # Lock file
+└── vite.config.js # Config Vite
 ```
-
-### Đề xuất mở rộng (Recommended Full Structure)
+### Recommended Full Structure
 ```
 src/
-├── assets/              # Ảnh, icon, font
-├── components/          # Component tái sử dụng
-│   ├── layout/          # Navbar, Footer
-│   ├── sections/        # Hero, About, Projects, Contact
-│   └── common/          # Button, Card, Modal...
-├── pages/               # Các trang: Home, About, Projects, Contact
-├── data/                # Dữ liệu tĩnh (projects.js, skills.js)
-├── hooks/               # Custom hooks
-├── context/             # Context API (Theme, Global state)
-├── styles/              # CSS bổ sung
-├── App.jsx              # Root component
-└── main.jsx             # Entry React render
+├── assets/ # Images, icons, fonts
+├── components/ # Reusable components
+│ ├── layout/ # Navbar, Footer
+│ ├── sections/ # Hero, About, Projects, Contact
+│ └── common/ # Button, Card, Modal...
+├── pages/ # Pages: Home, About, Projects, Contact
+├── data/ # Static data (projects.js, skills.js)
+├── hooks/ # Custom hooks
+├── context/ # Context API (Theme, Global state)
+├── styles/ # Additional CSS
+├── App.jsx # Root component
+└── main.jsx #Enter React render
 ```
 
 ---
 
-## 📦 Installation | Cài đặt
+## 📦 Installation 
 
 1. Clone repo  
    ```bash
@@ -69,7 +65,7 @@ src/
    cd web-beautiful-react-tailwind-portfolio
    ```
 
-2. Cài dependencies  
+2. Install dependencies  
    ```bash
    npm install
    # hoặc
@@ -90,11 +86,11 @@ src/
 
 ## 📸 Demo
 
-👉 [Live Demo (cập nhật sau khi deploy)](https://web-beautiful-react-tailwind-portfo.vercel.app/)
+👉 [Live Demo ](https://web-beautiful-react-tailwind-portfo.vercel.app/)
 
 ---
 
-## 📬 Contact | Liên hệ
+## 📬 Contact 
 
 - 👨‍💻 Author: [Mai Duc Trung]  
 - 🔗 GitHub: [https://github.com/mdtit2007](https://github.com/mdtit2007)  
